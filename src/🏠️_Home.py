@@ -2,7 +2,6 @@ import streamlit as st
 from pathlib import Path
 import secrets
 
-
 st.set_page_config(
     page_title="Password Tools", layout="wide", initial_sidebar_state="expanded"
 )
@@ -99,11 +98,6 @@ with tc1:
     st.markdown("#### Quick Tips")
     st.markdown(
         "- Use unique passwords for each service.\n- Prefer long passphrases over short complex strings."
-    )
-with tc2:
-    st.markdown("#### Tools")
-    st.markdown(
-        "- Use a password manager to store and sync credentials.\n- Enable Multi-Factor Authentication (MFA) where available."
     )
 
 st.markdown("---")
